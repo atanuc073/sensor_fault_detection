@@ -12,5 +12,4 @@ try:
 except Exception as e:
     print(e)
 
-db =client.get_database("ssensor")
-print(db.list_collection_names)
+db =client.get_database("ineuron")
